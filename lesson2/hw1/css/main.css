@@ -1,0 +1,52 @@
+.large {
+    width: 869px;
+    height: 720px;
+    background: silver;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
+.first {
+    background:deepskyblue;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 849px;
+    height: 150px;
+}
+
+.part {
+    display: flex;
+    width: 270px;
+    height: 150px;
+    background: dodgerblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.third {
+    background:deepskyblue;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
