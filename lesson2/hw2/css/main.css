@@ -1,0 +1,61 @@
+.o {
+    display: flex;
+    width: 920px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+
+.one {
+    background: burlywood;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.buton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.buton>button{
+    width: 120px;
+    height: 50px;
+    background: darkgray;
+}
+
+.two {
+    background: burlywood;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.three {
+    background: burlywood;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
