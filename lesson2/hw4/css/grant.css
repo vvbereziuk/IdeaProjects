@@ -1,0 +1,49 @@
+
+.row1 {
+    block-size: border-box;
+    justify-content: space-between;
+    display: flex;
+    width: 840px;
+    height: 660px;
+    background: deepskyblue;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.main {
+    display: flex;
+    block-size: border-box;
+    width: 400px;
+    height: 200px;
+    background: seashell;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+.icon {
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid {
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.fa-brands {
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.discript {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+}
+.discript>h3 {
+    color: orange;
+}
+.discript > p {
+    text-align: justify;
+    justify-content: center;
+    margin-right: 20px;
+}
