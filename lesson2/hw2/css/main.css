@@ -13,6 +13,7 @@
     height: 400px;
     text-align: center;
     padding-top: 30px;
+    border: 2px solid black;
 }
 .title {
     display: flex;
@@ -47,6 +48,7 @@
     height: 400px;
     text-align: center;
     padding-top: 30px;
+    border: 2px solid black;
 }
 
 .three {
@@ -56,6 +58,7 @@
     height: 400px;
     text-align: center;
     padding-top: 30px;
+    border: 2px solid black;
 }
 
 
