@@ -1,0 +1,49 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid red;
+    background: silver;
+    border-radius: 20px;
+}
+.top{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 50px;
+}
+.box1{
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    background: #17173a;
+}
+.icon {
+    font-size: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: dodgerblue;
+
+}
+.middle{
+    height: 400px;
+    background: #17173a;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 120px;
+    margin-left: 225px;
+}
+.box3{
+    height: 140px;
+    width: 140px;
+    background: dodgerblue;
+    margin: 20px;
+    border-radius: 15px;
+
+}
