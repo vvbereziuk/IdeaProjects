@@ -52,19 +52,21 @@
     height: 600px;
 }
 .block1{
-    width: 450px;
+    background: grey;
+    width: 600px;
     height: 250px;
-    flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 70px;
-    margin-top: 80px;
-}
-.box1{
 }
 .block2{
+    width: 500px;
+    justify-content:space-around;
+    position: absolute;
+    margin-left: 50px;
+    bottom: 300px;
+}
+
+.block3{
     background: #17173a;
     width: 600px;
-    height: 600px;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 350px;
 }
