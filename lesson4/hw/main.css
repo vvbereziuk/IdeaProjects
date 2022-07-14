@@ -1,0 +1,91 @@
+.father{
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.up, .down{
+    width: 700px;
+    height: 375px;
+    background: silver;
+    border-radius: 30px;
+    border: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 680px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.high{
+    width: 660px;
+    height: 90px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom{
+    width: 660px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    width: 520px;
+    height: 200px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    width: 130px;
+    height: 200px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .up, .down, .container {
+        display: flex;
+        border-radius: 20px;
+        border: 5px solid black;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 220px;
+        height: 300px;
+    }
+    .high{
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .buttom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .b{
+        width: 200px;
+        height: 130px;
+        border-radius: 20px;
+    }
+    .c{
+         width: 200px;
+         height: 40px;
+        border-radius: 20px;
+     }
+}
